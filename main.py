@@ -120,5 +120,9 @@ graph_cars(df[0])
 print("Boone")
 graph_cars(df[1])
 
+#Save the dataframes into csv files
+df[0].to_csv("Raleigh.csv")
+df[1].to_csv("Boone.csv")
+
 	
 	
